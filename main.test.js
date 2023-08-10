@@ -3,6 +3,6 @@ import main from "./main";
 
 describe("main", () => {
   test("should return success", () => {
-    expect(main(true)).toBe("success");
+    expect(main()).toBe("success");
   });
 });
